@@ -34,8 +34,6 @@
 
 .task__label,
 .task__input {
-  width: 56%;
-  display: inline-block;
   flex-grow: 1;
 }
 ul {
@@ -58,7 +56,6 @@ button{
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -100,11 +97,6 @@ button{
 
 .task--new .task__input{
   display: flex;
-}
-
-.task > [class^="task"],
-.task > .btn {
-  vertical-align: middle;
 }
 
 .task__checkbox {
@@ -154,7 +146,6 @@ button{
 
 .task--edit-mode .task__input {
   display: flex;
-  width: 224px;
 }
 
 .task--edit-mode .task__label {
